@@ -17,7 +17,7 @@ inp2.addEventListener("click", async() => {
 
 function markCheckBox() {
     var ch = document.getElementsByTagName('input');
-    for (var i = 0; i < ch.length; i++) {
+    for (var i = ch.length - 1; i >= 0; i--) {
         if (ch[i].type == 'checkbox') {
             ch[i].checked = true;
         }
@@ -27,7 +27,7 @@ function markCheckBox() {
 
 function markRadio() {
     var ch = document.getElementsByTagName('input');
-    for (var i = 0; i < ch.length; i++) {
+    for (var i = ch.length - 1; i >= 0; i--) {
         if (ch[i].type == 'radio') {
             ch[i].checked = true;
         }
