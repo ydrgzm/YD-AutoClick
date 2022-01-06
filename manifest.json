@@ -1,0 +1,9 @@
+{
+    "name": "YD-AutoClick",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Clicks the desired component of webpage and can be used to mark many radio buttons easily",
+    "background": {
+        "service_worker": "JS/background.js"
+    }
+}
